@@ -80,7 +80,8 @@ function view_poll($the_file)
                              <img style=\"width: 340px; height: 300px;\" alt=\"".$choice_label."\" title=\"".$choice_label."\" src=\"poll_images/".$the_file."/choice".$choice_num.".jpg\">
                            </td>";
                            
-                     echo "<td>
+                     echo "<td>  
+                                  <i>Choice ".$choice_num."</i><br><br> 
                             <big> <span style=\"font-weight: bold;\">".$choice_label."</span><br><br>
                                 ".$choice_label_more_detail."</big><br><br><br>                             
                              
@@ -106,7 +107,7 @@ function view_poll($the_file)
                    
          echo" <a href=\"poll_results.php?poll_name=".$the_file."\" target=\"_new\">
                View Results ( Generated realtime :) )..! </a>
-               </form><br><br><center><small><small> Powered by Apolls written by Ammar Qammaz</small></small></center><br></body></html>    
+               </form><br><br><center><small><small> Powered by <a href=\"https://github.com/AmmarkoV/Apolls\" target=\"_new\">Apolls</a> written by <a href=\"http://ammar.gr\" target=\"_new\">Ammar Qammaz</a></small></small></center><br></body></html>    
             ";
     
     
